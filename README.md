@@ -42,7 +42,14 @@ does the work, telling you in one line which decision it made for you.
 
 ## Install
 
-Claude Code, for all your projects:
+With the [skills](https://skills.sh) CLI, for any supported agent:
+
+```bash
+npx skills add brianjmeier/think-first
+```
+
+Or by hand in Claude Code, for all your projects, from a clone of this
+repo:
 
 ```bash
 mkdir -p ~/.claude/skills/think-first && cp skills/think-first/SKILL.md ~/.claude/skills/think-first/
